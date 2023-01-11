@@ -41,5 +41,11 @@ The main `App` component displays
 
 ## Specs
 
-- [Junior dev](./specs/Junior-dev.md)
-- [Senior dev](./specs/Senior-dev.md)
+Please work on and submit one of the following cases that you have been assigned. 
+
+- Clone the repo locally
+- Create a new feature branch for each main exercise that you start
+- Quality delivery is preferred over quantity
+
+- [Case 1](./specs/Case-1.md)
+- [Case 2](./specs/Case-2.md) (senior)

@@ -1,10 +1,21 @@
-# Junior dev specs
+# Case 1: Junior to Mid level dev specs
 
-See how many of the exercises you can complete in the time alloted. 
-Prefer quality over quantity and explain your thought process and engineering mindset behind decisions.
+See how many of the exercises you can complete in the time alloted (60 mins). 
+
+We prefer engineering quality over quantity. We will ask you to explain your thought process behind decisions made.
+
 You may skip an exercise if you´re stuck and unsure and move on to the next one.
 
+## Feature branches
+
+- `responsive-products`
+- `product-filters`
+- `shopping-basket`
+- `filter-hook`
+
 ## Exercise 1: Load and display products
+
+Feature branch:  `display-products`
 
 Use the hooks `useEffect` and `useState` to load products and display them in a list
 For now simply display the `name` of each product
@@ -24,14 +35,15 @@ To display the html of `description` you may use [dangerouslysetinnerhtml](https
 
 - Write tests for the `Product` component or do manual testing 
 
-## Exercise 1.2: Style Products
+## Exercise 1.2: Responsive Products
 
-Add Responsive Styling to Products so that you:
-- display 4 or more products per row for large devices
-- 2 for medium (tablet) devices
-- 1 for small (phone) devices
+Add Responsive Styling to Products so that the user is presented with: 
+- 4 products per row for large width devices (laptops etc)
+- 1 product per row on small width (mobile) devices
 
 ## Exercise 2: Filter and sort products
+
+Feature branch: `product-filters`
 
 The user should be able to apply multiple filters to narrow down
 the products displayed.
@@ -50,20 +62,32 @@ Add functionality to ensure filtered products are always sorted by price (cheape
 
 Add an `input` search box to allow filtering products by `name` matching (`includes` or regex).
 
+### Exercise 2.5 : Ensure the filters can be combined
+
+Write tests that confirm that two or more filters can be combined. Test that a user can simultaneously filter on products that are available and that match a given name.
+
 ## Exercise 3 : Shopping basket
 
-Let user select filtered products which are added to shopping basket. 
+Feature branch: `shopping-basket`
+
+Let the user select filtered products which are added to a shopping basket. 
 You may do this by adding a `Buy` button to the `Product` component.
 
-Display the products in shopping basket
+Display the products in a shopping basket
 
 - Name
 - Price
 
-Display total price of basket under the basket items
+Display total price of the basket under the basket items
 
-Write a test which:
+Write tests which:
 - adds two items to the shopping basket
-- verifies the products are displayed in the basket
+- verifies the products added are displayed in the basket
 - verifies the total basket price
+
+### Exercise 4 : Custom filter hook
+
+Feature branch: `filter-hook`
+
+Decouple presentation from state logic. Extract the filter logic in a custom hook. Test the hook separately.
 

@@ -1,8 +1,8 @@
 # Frontend Exercise - React TypeScript
 
-- React 18.2
-- Typescript 4.6
-- Node 16
+- React 18.2+
+- Typescript 4.6+
+- Node 16+
 
 ## Getting started
 

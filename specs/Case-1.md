@@ -1,6 +1,6 @@
 # Case 1: Junior to Mid level dev specs
 
-See how many of the exercises you can complete in the time alloted (60 mins). 
+Please complete around 2 or more exercises within ~60 mins. 
 
 We prefer engineering quality over quantity. We will ask you to explain your thought process behind decisions made.
 
@@ -20,7 +20,7 @@ Feature branch:  `display-products`
 Use the hooks `useEffect` and `useState` to load products and display them in a list
 For now simply display the `name` of each product
 
-## Exercise 1.1: Product component
+### Exercise 1.1: Product component
 
 Create a separate `Product` component that you use to display each product.
 
@@ -35,7 +35,7 @@ To display the html of `description` you may use [dangerouslysetinnerhtml](https
 
 - Write tests for the `Product` component or do manual testing 
 
-## Exercise 1.2: Responsive Products
+### Exercise 1.2: Responsive Products
 
 Add Responsive Styling to Products so that the user is presented with: 
 - 4 products per row for large width devices (laptops etc)
@@ -54,15 +54,15 @@ Add a filter to display only products where `inStock` is `true`
 
 Write a test that confirms that no products out of stock are displayed. 
 
-### Exercise 2.3 : Sort by price
+### Exercise 2.2 : Sort by price
 
 Add functionality to ensure filtered products are always sorted by price (cheapest first).
 
-### Exercise 2.4 : Filter products by name
+### Exercise 2.3 : Filter products by name
 
 Add an `input` search box to allow filtering products by `name` matching (`includes` or regex).
 
-### Exercise 2.5 : Ensure the filters can be combined
+### Exercise 2.4 : Ensure the filters can be combined
 
 Write tests that confirm that two or more filters can be combined. Test that a user can simultaneously filter on products that are available and that match a given name.
 
@@ -85,7 +85,7 @@ Write tests which:
 - verifies the products added are displayed in the basket
 - verifies the total basket price
 
-### Exercise 4 : Custom filter hook
+## Exercise 4 : Custom filter hook
 
 Feature branch: `filter-hook`
 

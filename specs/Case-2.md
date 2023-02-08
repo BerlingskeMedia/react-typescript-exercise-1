@@ -1,6 +1,6 @@
 # Case 2: Mid to Senior level dev specs
 
-See how many of the exercises you can complete in the time alloted (60 mins). 
+Please complete around 2 or more exercises within ~60 mins. 
 
 We prefer engineering quality over quantity. We will ask you to explain your thought process behind decisions made.
 
@@ -20,7 +20,7 @@ Feature branch:  `display-products`
 Use the hooks `useEffect` and `useState` to load products and display them in a list
 For now simply display the `name` of each product
 
-## Exercise 1.1: Product component
+### Exercise 1.1: Product component
 
 Create a separate `Product` component that you use to display each product.
 
@@ -35,7 +35,7 @@ To display the html of `description` you may use [dangerouslysetinnerhtml](https
 
 - Write tests for the `Product` component 
 
-## Exercise 1.2: Style Products
+### Exercise 1.2: Style Products
 
 Add Responsive Styling to Products so that the user is presented with: 
 - 4 products per row for large width devices (laptops etc)
@@ -66,13 +66,13 @@ Write tests to confirm that only products with matching name are displayed.
 
 Write tests that confirm that the filters can be combined so that a user can filter on products that are available and match a given name.
 
-### Exercise 3 : Custom filter hook
+## Exercise 3 : Custom filter hook
 
 Feature branch:  `filter-hook`
 
 Decouple presentation from state logic. Extract the filter logic in a custom hook. Test the hook separately.
 
-### Exercise 4 : Configurable filters
+## Exercise 4 : Configurable filters
 
 Feature branch:  `filter-config`
 

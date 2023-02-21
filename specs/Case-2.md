@@ -1,6 +1,6 @@
 # Case 2: Mid to Senior level dev specs
 
-Please complete around 2 or more exercises within ~60 mins. 
+Please complete around 2 or more features (as per feature branches) within ~60-90 mins. 
 
 We prefer engineering quality over quantity. We will ask you to explain your thought process behind decisions made.
 
@@ -41,7 +41,7 @@ Add Responsive Styling to Products so that the user is presented with:
 - 4 products per row for large width devices (laptops etc)
 - 1 product per row on small width (mobile) devices
 
-Write tests to confirm both scenarios.
+No testing necessary
 
 ## Exercise 2: Filter and sort products
 
